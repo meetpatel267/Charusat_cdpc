@@ -1,0 +1,282 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="charusat.com.charusatcdpc"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:6:5-67
+11-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:19.2.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\f10127e9d8318f4d4750b9e91ab15d15\firebase-database-19.2.0\AndroidManifest.xml:25:5-79
+15-->[com.google.firebase:firebase-database:19.2.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\f10127e9d8318f4d4750b9e91ab15d15\firebase-database-19.2.0\AndroidManifest.xml:25:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\9477b8b7d3dd4ca1c2a196af0518f2f2\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:5-68
+16-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\9477b8b7d3dd4ca1c2a196af0518f2f2\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\f1aa6e18467c20f571460c2bb43c33e5\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+17-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\f1aa6e18467c20f571460c2bb43c33e5\firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+18-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\efdfb2ff9ac9748ae74b5e83df955089\play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\efdfb2ff9ac9748ae74b5e83df955089\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
+19
+20    <application
+20-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:8:5-59:19
+21        android:allowBackup="true"
+21-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:9:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.0.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\b5dae2823e7cdbf54cda585f52c122a9\core-1.0.0\AndroidManifest.xml:22:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:10:9-43
+25        android:label="@string/app_name"
+25-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:11:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:12:9-54
+27        android:supportsRtl="true"
+27-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:13:9-35
+28        android:theme="@style/AppTheme" >
+28-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:14:9-40
+29        <activity
+29-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:16:9-18:56
+30            android:name="charusat.com.charusatcdpc.dashboard.MainDashboard"
+30-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:17:13-52
+31            android:theme="@style/AppTheme" />
+31-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:18:13-44
+32        <activity
+32-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:19:9-21:56
+33            android:name="charusat.com.charusatcdpc.authentication.SignUpActivityFirebase"
+33-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:20:13-66
+34            android:theme="@style/AppTheme" />
+34-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:21:13-44
+35        <activity
+35-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:22:9-24:56
+36            android:name="charusat.com.charusatcdpc.authentication.LoginActivityFirebase"
+36-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:23:13-65
+37            android:theme="@style/AppTheme" />
+37-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:24:13-44
+38        <activity
+38-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:25:9-27:47
+39            android:name="charusat.com.charusatcdpc.authentication.ResetPasswordActivity"
+39-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:26:13-65
+40            android:theme="@style/AppTheme" />
+40-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:27:13-44
+41        <activity android:name="charusat.com.charusatcdpc.authentication.SplashScreen" >
+41-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:28:9-34:20
+41-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:28:19-62
+42            <intent-filter>
+42-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:29:13-33:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:30:17-69
+43-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:30:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:32:17-77
+45-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:32:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:35:9-37:47
+49            android:name="charusat.com.charusatcdpc.admin.PlacementData"
+49-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:36:13-48
+50            android:theme="@style/AppTheme" />
+50-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:37:13-44
+51        <activity
+51-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:38:9-40:47
+52            android:name="charusat.com.charusatcdpc.admin.CdpcActivities"
+52-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:39:13-49
+53            android:theme="@style/AppTheme" />
+53-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:40:13-44
+54        <activity
+54-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:41:9-43:47
+55            android:name="charusat.com.charusatcdpc.student.PersonalData"
+55-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:42:13-49
+56            android:theme="@style/AppTheme" />
+56-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:43:13-44
+57        <activity android:name="charusat.com.charusatcdpc.student.AcademicData" />
+57-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:44:9-67
+57-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:44:19-55
+58        <activity android:name="charusat.com.charusatcdpc.student.ViewCompanyDetails" />
+58-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:45:9-64
+58-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:45:19-61
+59        <activity android:name="charusat.com.charusatcdpc.dashboard.AdminDashboard" >
+59-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:46:9-48:20
+59-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:46:19-59
+60        </activity>
+61        <activity android:name="charusat.com.charusatcdpc.student.ViewStudentDetails" />
+61-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:49:9-73
+61-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:49:19-61
+62        <activity android:name="charusat.com.charusatcdpc.admin.ViewSelectedStudents" />
+62-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:50:9-73
+62-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:50:19-61
+63        <activity
+63-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:51:9-55:20
+64            android:name="charusat.com.charusatcdpc.MainActivity"
+64-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:51:19-47
+65            android:label="@string/app_name"
+65-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:52:13-45
+66            android:theme="@style/AppTheme.NoActionBar" >
+66-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:53:13-56
+67        </activity>
+68        <activity android:name="charusat.com.charusatcdpc.authentication.LogoutActivity" />
+68-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:56:9-67
+68-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:56:19-64
+69        <activity android:name="charusat.com.charusatcdpc.admin.AddCompanyDetails" />
+69-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:57:9-61
+69-->D:\Final\charusat_cdpc\app\src\main\AndroidManifest.xml:57:19-58
+70
+71        <service
+71-->[com.google.firebase:firebase-database:19.2.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\f10127e9d8318f4d4750b9e91ab15d15\firebase-database-19.2.0\AndroidManifest.xml:29:9-35:19
+72            android:name="com.google.firebase.components.ComponentDiscoveryService"
+72-->[com.google.firebase:firebase-database:19.2.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\f10127e9d8318f4d4750b9e91ab15d15\firebase-database-19.2.0\AndroidManifest.xml:30:13-84
+73            android:directBootAware="true"
+73-->[com.google.firebase:firebase-common:19.3.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\6b63939441740e224ad237faa2c5c414\firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+74            android:exported="false" >
+74-->[com.google.firebase:firebase-database:19.2.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\f10127e9d8318f4d4750b9e91ab15d15\firebase-database-19.2.0\AndroidManifest.xml:31:13-37
+75            <meta-data
+75-->[com.google.firebase:firebase-database:19.2.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\f10127e9d8318f4d4750b9e91ab15d15\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+76                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+76-->[com.google.firebase:firebase-database:19.2.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\f10127e9d8318f4d4750b9e91ab15d15\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-database:19.2.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\f10127e9d8318f4d4750b9e91ab15d15\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+78            <meta-data
+78-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\db9fd4181921fcb933d270f5edbcb02d\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+79                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+79-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\db9fd4181921fcb933d270f5edbcb02d\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\db9fd4181921fcb933d270f5edbcb02d\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\40777f6d0a6590304dc0a81c336b5877\firebase-storage-19.1.0\AndroidManifest.xml:33:13-35:85
+82                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+82-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\40777f6d0a6590304dc0a81c336b5877\firebase-storage-19.1.0\AndroidManifest.xml:34:17-107
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\40777f6d0a6590304dc0a81c336b5877\firebase-storage-19.1.0\AndroidManifest.xml:35:17-82
+84            <meta-data
+84-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\9477b8b7d3dd4ca1c2a196af0518f2f2\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
+85                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+85-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\9477b8b7d3dd4ca1c2a196af0518f2f2\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\9477b8b7d3dd4ca1c2a196af0518f2f2\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\f1aa6e18467c20f571460c2bb43c33e5\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+88                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+88-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\f1aa6e18467c20f571460c2bb43c33e5\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\f1aa6e18467c20f571460c2bb43c33e5\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+90        </service>
+91
+92        <activity
+92-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\db9fd4181921fcb933d270f5edbcb02d\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+93            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+93-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\db9fd4181921fcb933d270f5edbcb02d\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+94            android:excludeFromRecents="true"
+94-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\db9fd4181921fcb933d270f5edbcb02d\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+95            android:exported="true"
+95-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\db9fd4181921fcb933d270f5edbcb02d\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+96            android:launchMode="singleTask"
+96-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\db9fd4181921fcb933d270f5edbcb02d\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+97            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+97-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\db9fd4181921fcb933d270f5edbcb02d\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+98            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+98-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\db9fd4181921fcb933d270f5edbcb02d\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+99
+100        <receiver
+100-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\f1aa6e18467c20f571460c2bb43c33e5\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+101            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+101-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\f1aa6e18467c20f571460c2bb43c33e5\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+102            android:exported="true"
+102-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\f1aa6e18467c20f571460c2bb43c33e5\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+103            android:permission="com.google.android.c2dm.permission.SEND" >
+103-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\f1aa6e18467c20f571460c2bb43c33e5\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+104            <intent-filter>
+104-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\f1aa6e18467c20f571460c2bb43c33e5\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+105                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+105-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\f1aa6e18467c20f571460c2bb43c33e5\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+105-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\f1aa6e18467c20f571460c2bb43c33e5\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+106            </intent-filter>
+107        </receiver>
+108
+109        <activity
+109-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\fc9a8d5df99331dac9a5fdc49a7080c6\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+110            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+110-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\fc9a8d5df99331dac9a5fdc49a7080c6\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+111            android:exported="false"
+111-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\fc9a8d5df99331dac9a5fdc49a7080c6\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+112            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+112-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\fc9a8d5df99331dac9a5fdc49a7080c6\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+113
+114        <provider
+114-->[com.google.firebase:firebase-common:19.3.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\6b63939441740e224ad237faa2c5c414\firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+115            android:name="com.google.firebase.provider.FirebaseInitProvider"
+115-->[com.google.firebase:firebase-common:19.3.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\6b63939441740e224ad237faa2c5c414\firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+116            android:authorities="charusat.com.charusatcdpc.firebaseinitprovider"
+116-->[com.google.firebase:firebase-common:19.3.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\6b63939441740e224ad237faa2c5c414\firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+117            android:exported="false"
+117-->[com.google.firebase:firebase-common:19.3.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\6b63939441740e224ad237faa2c5c414\firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+118            android:initOrder="100" />
+118-->[com.google.firebase:firebase-common:19.3.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\6b63939441740e224ad237faa2c5c414\firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+119
+120        <receiver
+120-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\efdfb2ff9ac9748ae74b5e83df955089\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+121            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+121-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\efdfb2ff9ac9748ae74b5e83df955089\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+122            android:enabled="true"
+122-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\efdfb2ff9ac9748ae74b5e83df955089\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+123            android:exported="false" >
+123-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\efdfb2ff9ac9748ae74b5e83df955089\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+124        </receiver>
+125        <receiver
+125-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\efdfb2ff9ac9748ae74b5e83df955089\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+126            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+126-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\efdfb2ff9ac9748ae74b5e83df955089\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+127            android:enabled="true"
+127-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\efdfb2ff9ac9748ae74b5e83df955089\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+128            android:exported="true"
+128-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\efdfb2ff9ac9748ae74b5e83df955089\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+129            android:permission="android.permission.INSTALL_PACKAGES" >
+129-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\efdfb2ff9ac9748ae74b5e83df955089\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+130            <intent-filter>
+130-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\efdfb2ff9ac9748ae74b5e83df955089\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+131                <action android:name="com.android.vending.INSTALL_REFERRER" />
+131-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\efdfb2ff9ac9748ae74b5e83df955089\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+131-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\efdfb2ff9ac9748ae74b5e83df955089\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+132            </intent-filter>
+133        </receiver>
+134
+135        <service
+135-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\efdfb2ff9ac9748ae74b5e83df955089\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+136            android:name="com.google.android.gms.measurement.AppMeasurementService"
+136-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\efdfb2ff9ac9748ae74b5e83df955089\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+137            android:enabled="true"
+137-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\efdfb2ff9ac9748ae74b5e83df955089\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+138            android:exported="false" />
+138-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\efdfb2ff9ac9748ae74b5e83df955089\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+139        <service
+139-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\efdfb2ff9ac9748ae74b5e83df955089\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+140            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+140-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\efdfb2ff9ac9748ae74b5e83df955089\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+141            android:enabled="true"
+141-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\efdfb2ff9ac9748ae74b5e83df955089\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+142            android:exported="false"
+142-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\efdfb2ff9ac9748ae74b5e83df955089\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+143            android:permission="android.permission.BIND_JOB_SERVICE" />
+143-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\efdfb2ff9ac9748ae74b5e83df955089\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+144
+145        <meta-data
+145-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\6fe90f521eeacc3a65d467553af0f9e4\play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+146            android:name="com.google.android.gms.version"
+146-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\6fe90f521eeacc3a65d467553af0f9e4\play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+147            android:value="@integer/google_play_services_version" />
+147-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\meetp\.gradle\caches\transforms-2\files-2.1\6fe90f521eeacc3a65d467553af0f9e4\play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+148    </application>
+149
+150</manifest>

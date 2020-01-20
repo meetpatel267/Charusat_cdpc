@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "539912230828",
+    "firebase_url": "https://charusat-com-charusatcdpc.firebaseio.com",
+    "project_id": "charusat-com-charusatcdpc",
+    "storage_bucket": "charusat-com-charusatcdpc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539912230828:android:e3dcd345abc6ae27",
+        "android_client_info": {
+          "package_name": "charusat.com.charusatcdpc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539912230828-tg89p81c3nlcpl3f1soiecicp2dgc7l4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "charusat.com.charusatcdpc",
+            "certificate_hash": "2e5f1311286e0fb4a132b2ff6a0cf6c8e8e8e6b7"
+          }
+        },
+        {
+          "client_id": "539912230828-r4b7f09t1gglb9mjtpvaiakift3kh2q0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "charusat.com.charusatcdpc",
+            "certificate_hash": "3463a9911c46b835599717708a3b6cb06005ef3e"
+          }
+        },
+        {
+          "client_id": "539912230828-q0b3pragr49t0alsd494avo8ndekdfsa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6dulGkUksTEX_AuBWjnMg3uw54c1163s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539912230828-q0b3pragr49t0alsd494avo8ndekdfsa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

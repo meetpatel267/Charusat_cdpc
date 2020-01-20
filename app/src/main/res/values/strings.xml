@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">charusat cdpc</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? \n Get registered in Charusat CDPC App now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+
+
+    <string name="title_activity_main_navigation">MainNavigation</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="nav_header_title">Charusat cdpc</string>
+    <string name="nav_header_subtitle">tnp@charusat.ac.in</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="nav_item_activity_titles">
+        <item>Dashboard</item>
+        <item>Contact us</item>
+        <item>My Profile</item>
+        <item>Logout</item>
+        <item>Quit</item>
+    </string-array>
+
+    <string-array name="array_sem">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="array_branch">
+        <item>CE</item>
+        <item>IT</item>
+        <item>CS</item>
+        <item>CSE</item>
+        <item>EC</item>
+        <item>EE</item>
+        <item>CL</item>
+        <item>ME</item>
+    </string-array>
+
+    <string-array name="array_skills">
+        <item>Programmming</item>
+        <item>Software Development</item>
+        <item>Software Testing</item>
+        <item>Networking</item>
+        <item>Designing</item>
+        <item>QA</item>
+        <item>Web Development</item>
+        <item>Mobile App Development</item>
+        <item>Project Management</item>
+        <item>DBA</item>
+        <item>Data Analyst</item>
+        <item>Data Mining</item>
+    </string-array>
+
+    <string-array name="titles">
+        <item>Carrier Counseling</item>
+        <item>Expert Lecture</item>
+        <item>Industrial Visit</item>
+        <item>Summer Internship</item>
+        <item>Workshops</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Carrier Counseling</item>
+        <item>Expert Lecture</item>
+        <item>Industrial Visit</item>
+        <item>Summer Internship</item>
+        <item>Workshops</item>
+    </string-array>
+</resources>
